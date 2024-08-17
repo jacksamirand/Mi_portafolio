@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacqueline Arreola</title>
+    <link rel="shortcut icon" href="icon.png">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body data-bs-theme="dark">
+    <!-- bg-animation -->
+    <div class="background">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+    <!-- Cabecera de página -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#skills">Habilidades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects">Proyectos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <!-- AboutMe resume section -->
+        <section id="presentation" class="container col-xxl-8 px-4 py-5">   
+            <div id="about-me" class="p-5 mb-4 bg-body-tertiary rounded-3 ">
+                <div class="container-fluid py-5 text-center">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <img src="assets/jacksamiran_profile.jpeg" alt="Jacqueline Arreola" id="profile-img">
+                        </div>
+                        <div class="col">
+                            <h1 class="display-5 fw-bold">Jacqueline Arreola</h1>
+                            <p class="col fs-4">Programadora Jr en construcción constantes explorando mis habilidades en la programación web y análisis de datos.</p>
+                            <button id="emailButton" class="btn btn-primary btn-lg" type="button">Contáctame</button>
+                            <script>
+                                document.getElementById('emailButton').addEventListener('click', function() {
+                                    window.location.href = 'mailto:jacksamiran@gmail.com';
+                                });
+                            </script>
+                        </div>
+                    </div>
+                </div>
+              </div>      
+            
+        </section>
+
+        <!-- Skill description skill -->
+        <section id="skills" class="container px-4 py-2">
+            <div class="container px-4 py-5" id="featured-3">
+                <h2 class="pb-2 border-bottom text-center text-body-emphasis">Habilidades</h2>
+                <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 text-center">
+                    <div class="feature col">                        
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-puzzle" viewBox="0 0 16 16">
+                            <path d="M3.112 3.645A1.5 1.5 0 0 1 4.605 2H7a.5.5 0 0 1 .5.5v.382c0 .696-.497 1.182-.872 1.469a.5.5 0 0 0-.115.118l-.012.025L6.5 4.5v.003l.003.01q.005.015.036.053a.9.9 0 0 0 .27.194C7.09 4.9 7.51 5 8 5c.492 0 .912-.1 1.19-.24a.9.9 0 0 0 .271-.194.2.2 0 0 0 .039-.063v-.009l-.012-.025a.5.5 0 0 0-.115-.118c-.375-.287-.872-.773-.872-1.469V2.5A.5.5 0 0 1 9 2h2.395a1.5 1.5 0 0 1 1.493 1.645L12.645 6.5h.237c.195 0 .42-.147.675-.48.21-.274.528-.52.943-.52.568 0 .947.447 1.154.862C15.877 6.807 16 7.387 16 8s-.123 1.193-.346 1.638c-.207.415-.586.862-1.154.862-.415 0-.733-.246-.943-.52-.255-.333-.48-.48-.675-.48h-.237l.243 2.855A1.5 1.5 0 0 1 11.395 14H9a.5.5 0 0 1-.5-.5v-.382c0-.696.497-1.182.872-1.469a.5.5 0 0 0 .115-.118l.012-.025.001-.006v-.003a.2.2 0 0 0-.039-.064.9.9 0 0 0-.27-.193C8.91 11.1 8.49 11 8 11s-.912.1-1.19.24a.9.9 0 0 0-.271.194.2.2 0 0 0-.039.063v.003l.001.006.012.025c.016.027.05.068.115.118.375.287.872.773.872 1.469v.382a.5.5 0 0 1-.5.5H4.605a1.5 1.5 0 0 1-1.493-1.645L3.356 9.5h-.238c-.195 0-.42.147-.675.48-.21.274-.528.52-.943.52-.568 0-.947-.447-1.154-.862C.123 9.193 0 8.613 0 8s.123-1.193.346-1.638C.553 5.947.932 5.5 1.5 5.5c.415 0 .733.246.943.52.255.333.48.48.675.48h.238zM4.605 3a.5.5 0 0 0-.498.55l.001.007.29 3.4A.5.5 0 0 1 3.9 7.5h-.782c-.696 0-1.182-.497-1.469-.872a.5.5 0 0 0-.118-.115l-.025-.012L1.5 6.5h-.003a.2.2 0 0 0-.064.039.9.9 0 0 0-.193.27C1.1 7.09 1 7.51 1 8s.1.912.24 1.19c.07.14.14.225.194.271a.2.2 0 0 0 .063.039H1.5l.006-.001.025-.012a.5.5 0 0 0 .118-.115c.287-.375.773-.872 1.469-.872H3.9a.5.5 0 0 1 .498.542l-.29 3.408a.5.5 0 0 0 .497.55h1.878c-.048-.166-.195-.352-.463-.557-.274-.21-.52-.528-.52-.943 0-.568.447-.947.862-1.154C6.807 10.123 7.387 10 8 10s1.193.123 1.638.346c.415.207.862.586.862 1.154 0 .415-.246.733-.52.943-.268.205-.415.39-.463.557h1.878a.5.5 0 0 0 .498-.55l-.001-.007-.29-3.4A.5.5 0 0 1 12.1 8.5h.782c.696 0 1.182.497 1.469.872.05.065.091.099.118.115l.025.012.006.001h.003a.2.2 0 0 0 .064-.039.9.9 0 0 0 .193-.27c.14-.28.24-.7.24-1.191s-.1-.912-.24-1.19a.9.9 0 0 0-.194-.271.2.2 0 0 0-.063-.039H14.5l-.006.001-.025.012a.5.5 0 0 0-.118.115c-.287.375-.773.872-1.469.872H12.1a.5.5 0 0 1-.498-.543l.29-3.407a.5.5 0 0 0-.497-.55H9.517c.048.166.195.352.463.557.274.21.52.528.52.943 0 .568-.447.947-.862 1.154C9.193 5.877 8.613 6 8 6s-1.193-.123-1.638-.346C5.947 5.447 5.5 5.068 5.5 4.5c0-.415.246-.733.52-.943.268-.205.415-.39.463-.557z"/>
+                        </svg>  
+                        <h3 class="fs-2">Resolución de problemas</h3>
+                        <p>Capacidades de análisis y descomposición de problemas complejos para la bpusqueda de soluciones creativas e innovadoras </p>                    
+                    </div>
+
+                    <div class="feature col">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
+                            <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"/>
+                        </svg> 
+                        <h3 class="fs-2">Programación</h3>
+                        <p>Manejo de herramientas y lenguajes orientados al desarrollo web y análisis de datos</p>                     
+                    </div>
+
+                    <div class="feature col">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+                            <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"/>
+                        </svg>
+                        <h3 class="fs-2">Trabajo en equipo</h3>
+                        <p>Experiencia con metodologías de trabajo colaborativo, comunicación efectiva, empatía y adaptabilidad. </p>
+                    </div>
+                </div>
+              </div>
+        </section>
+       
+        <!-- Projects description and links -->
+        <section id="projects" class="container px-4 py-2">
+            <div class="container px-4 py-2" id="featured-3">
+                <h2 class="pb-2 border-bottom text-center text-body-emphasis">Proyectos</h2>
+                <div class="container">
+
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <!-- cards -->
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                                    <title>Mi primer página</title>
+                                    <rect width="100%" height="100%">
+                                        <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                                            <img src="assets/epocas_musica.png" alt="Épocas musicales" srcset="">
+                                        </text>
+                                    </rect>
+                                    
+                                </svg>
+                                <div class="card-body">
+                                    <p class="card-text">Primer práctica TecnoloChicas PRO introductoria a la programación web.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/jacksamirand/TC24_primer_pagina">Link</a></button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary"><i class="bi bi-github"></i></button>
+                                        </div>                            
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                                    <title>Google Clon</title>
+                                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                                    <text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+                                    <img src="assets/google_search.png" alt="Google clone">
+                                </svg>
+                                <div class="card-body">
+                                    <p class="card-text">Clonación de página de búsqueda de Google realizada a base de HTML y CSS.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/jacksamirand/Google_clone">Link</a></button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary"><i class="bi bi-github"></i></button>
+                                        </div>                            
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                                    <title>En construcción</title>
+                                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                                    <text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+                                    <img src="assets/construction.png" alt="Google clone">
+                                </svg>
+                                <div class="card-body">
+                                    <p class="card-text">Próximamente... Nos estamos preparando para el siguiente reto.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary" disabled>Link</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary" disabled><i class="bi bi-github"></i></button>
+                                        </div>                            
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+
+                        
+
+
+                      
+                      
+                      
+                                         
+              
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact in social media -->
+        <section id="contact" class="container px-4 py-2">
+            <div class="container px-4 py-5 text-center" id="featured-3">
+                <h2 class="pb-2 border-bottom text-center text-body-emphasis">Contacto</h2>
+                <p>
+                    ¡Puedes encontrarme en mis redes sociales!
+
+                    <div class="social-links">
+                        <!-- Instagram -->      
+                        <button type="button btn-lg" class="btn btn-primary">
+                            <i class="bi bi-instagram">
+                                <a href="https://www.instagram.com/jacksamiran/"></a>
+                                Instagram
+                            </i>
+                        </button>   
+                        
+                        
+                        <!-- LinkedIn -->
+                        <button type="button" class="btn btn-primary">
+                            <i class="bi bi-linkedin">
+                                <a href="https://www.linkedin.com/in/jacqueline-arreola-9ab423289/"></a>
+                                LinkedIn
+                            </i>
+                        </button>
+                        
+                        
+                        <!-- Twitch -->
+                        <button type="button" class="btn btn-primary">
+                            <i class="bi bi-twitch">
+                                <a href="https://www.twitch.tv/jacksamiran"></a>
+                                Twitch
+                            </i>
+                        </button>
+                        
+
+                        <!-- Twitter-X -->
+                        <button type="button" class="btn btn-primary">
+                            <i class="bi bi-twitter-x">
+                                <a href="https://x.com/jacksamiran"></a>
+                                Twitter (X)
+                            </i>
+                        </button>
+                        
+
+                    </div>
+                </p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Creado por Jacqueline Amairani Arreola Miranda</p>
+        <p>TecnoloChicas PRO, Agosto 2024</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
